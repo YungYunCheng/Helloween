@@ -10,8 +10,9 @@
     }
     body {
         background-image: url("picture/background01.png");
-        background-repeat: no-repeat;
+        background-repeat: 1;
         background-size: 2250px;
+        
     }
 
 </style>
@@ -43,7 +44,7 @@ function reP1(){
     document.getElementById('oImg').style.display = "block";  
     }  
 function reP2(){  
-    document.getElementById('iImg').style.display = "block";  
+    document.getElementById('iImg').style.display = "block"; 
     }  
 </script>  
  
@@ -51,10 +52,10 @@ function reP2(){
 <INPUT TYPE="image" src='picture/door2.jpg' width="400" height="500" onclick="reP2()">
 <INPUT TYPE="image" src='picture/door3.jpg' width="400" height="500" onclick="reP1()"><br>    
 <img src='picture/g1.gif' id="oImg" style='display: none;' width="1250px" hight="2000px">
-<img src='picture/Candy.jpg' id="iImg" style='display: none;' width="1000px" hight="1500px">  
+<img src='picture/Candy.jpg' id="iImg" style='display: oImg;' width="1000px" hight="1500px">  
 
 <audio control autoplay loop>
        <source src="picture/horror.mp3" type="audio/mpeg">
-       <p>omg on the sound pls, thank :)</p>
+       <p>thank :)</p>
 </audio>
 </body>
