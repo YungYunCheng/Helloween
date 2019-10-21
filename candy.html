@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Let Get Candy !!!</title>
+<style>
+    h1 {
+        text-align: center;
+        color: antiquewhite;
+    }
+    body {
+        background-image: url("picture/background01.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+</style>
+ 
+</head>
+<head2 class="head">
+<h1 id="changecolor">Welcome to ACIT1620</h1><br>
+</head2>
+
+<body>
+
+<button type="button" onclick="change_to_orange()">orange</button>
+<button type="button" onclick="change_to_gray()">gray</button>
+<button type="button" onclick="change_to_cyan()">cyan</button><br>
+<script>
+function change_to_orange(){
+    document.getElementById("changecolor").style.color = "orange"
+}
+function change_to_gray(){
+    document.getElementById("changecolor").style.color = "gray"
+}
+function change_to_cyan(){
+    document.getElementById("changecolor").style.color = "cyan"
+}
+</script>
+
+<script>  
+function reP1(){  
+    document.getElementById('oImg').style.display = "block";  
+    }  
+function reP2(){  
+    document.getElementById('iImg').style.display = "block";  
+    }  
+</script>  
+ 
+<INPUT TYPE="image" src='picture/door1.jpg' width="400" height="500" onclick="reP1()">  
+<INPUT TYPE="image" src='picture/door2.jpg' width="400" height="500" onclick="reP2()">
+<INPUT TYPE="image" src='picture/door3.jpg' width="400" height="500" onclick="reP1()"><br>    
+<img src='picture/g1.gif' id="oImg" style='display: none;' width="1250px" hight="2000px">
+<img src='picture/Candy.jpg' id="iImg" style='display: none;' width="1250px" hight="2000px">  
+
+<audio control autoplay loop>
+       <source src="picture/horror.mp3" type="audio/mpeg">
+       <p>omg on the sound pls, thank :)</p>
+</audio>
+</body>
